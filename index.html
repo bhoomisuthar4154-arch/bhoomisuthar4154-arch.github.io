@@ -34,7 +34,7 @@ h1 { font-size:clamp(42px,7vw,76px); margin:22px 0 20px; }
 .profile-card:before,.profile-card:after { content:""; position:absolute; border:1px solid rgba(255,255,255,.24); border-radius:50%; pointer-events:none; }
 .profile-card:before { width:260px;height:260px;right:-90px;top:-90px; }
 .profile-card:after { width:190px;height:190px;right:-52px;top:-55px; }
-.avatar { width:78px;height:78px;border-radius:24px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);display:grid;place-items:center;font-size:27px;font-weight:900;letter-spacing:-.05em; }
+.avatar { width:112px;height:112px;border-radius:28px;object-fit:cover;object-position:center 35%;background:rgba(255,255,255,.18);border:2px solid rgba(255,255,255,.65);display:block;box-shadow:0 8px 24px rgba(12,25,65,.18); }
 .profile-card h2 { font-size:28px; margin:28px 0 7px; }
 .profile-card p { color:rgba(255,255,255,.88); margin:0; }
 .profile-meta { margin-top:25px; padding-top:18px; border-top:1px solid rgba(255,255,255,.25); font-size:13px; display:flex; justify-content:space-between; gap:10px; }
@@ -86,7 +86,7 @@ footer { max-width:1120px; margin:auto; padding:25px 24px 38px; display:flex; ju
         <div class="actions"><a class="btn primary" href="#projects">Explore my project ↗</a><a class="btn secondary" href="https://github.com/bhoomisuthar4154-arch/Customer-Shopping-Behavior-Analysis" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
       </div>
       <aside class="profile-card" aria-label="Profile summary">
-        <div class="avatar">BS</div><h2>Bhavana K.A Suthar</h2>
+        <img class="avatar" src="profile.png" alt="Portrait of Bhavana K.A Suthar" /><h2>Bhavana K.A Suthar</h2>
         <p>BCA Analytics student exploring data, patterns, and practical business insights.</p>
         <div class="profile-meta"><span>Focus: Data Analytics</span><span>Portfolio · 2026</span></div>
       </aside>
@@ -100,7 +100,7 @@ footer { max-width:1120px; margin:auto; padding:25px 24px 38px; display:flex; ju
     </section>
     <section id="skills">
       <div class="section-head"><div><div class="kicker">Tools & skills</div><h2 class="section-title">My current toolkit</h2></div><p class="section-sub">Tools used in my current project and areas I'm continuing to practise.</p></div>
-      <div class="panel"><h3>Analytics workflow</h3><div class="skills"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Neon</span><span class="chip">Google Colab</span><span class="chip">Power BI</span><span class="chip">GitHub</span><span class="chip">Data Visualization</span><span class="chip">Exploratory Data Analysis</span></div></div>
+      <div class="panel"><h3>Analytics workflow</h3><div class="skills"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Neon</span><span class="chip">Google Colab</span><span class="chip">Power BI</span><span class="chip">GitHub</span><span class="chip">Data Visualization</span><span class="chip">Exploratory Data Analysis</span></div><h3 style="margin-top:26px">Certifications</h3><div class="skills"><span class="chip">Qlik Data Literacy</span><span class="chip">Infosys Springboard: HTML5</span><span class="chip">Infosys Springboard: CSS3</span><span class="chip">Infosys Springboard: JavaScript</span><span class="chip">Celonis</span></div></div>
     </section>
     <section id="projects">
       <div class="section-head"><div><div class="kicker">Featured work</div><h2 class="section-title">Projects in progress</h2></div><p class="section-sub">A growing collection of practical work that connects data preparation, analysis, and presentation.</p></div>
@@ -109,7 +109,7 @@ footer { max-width:1120px; margin:auto; padding:25px 24px 38px; display:flex; ju
         <div class="project-info"><div class="kicker">01 / Data analytics</div><h3>Customer Shopping Behavior Analysis</h3><p>An end-to-end analysis of customer shopping records using Python, PostgreSQL, SQL, and Power BI. The project explores category revenue, discount use, shipping methods, ratings, and customer purchasing patterns.</p><ul><li>Inspected a dataset with 3,900 rows and 18 columns.</li><li>Used SQL aggregations to compare categories, discounts, and shipping types.</li><li>Built a Power BI dashboard with KPI cards, charts, and slicers.</li></ul><div class="tags"><span class="tag">Python / Pandas</span><span class="tag">Neon PostgreSQL</span><span class="tag">SQL</span><span class="tag">Power BI</span></div><a class="btn primary" href="https://github.com/bhoomisuthar4154-arch/Customer-Shopping-Behavior-Analysis" target="_blank" rel="noreferrer">Explore repository ↗</a></div>
       </article>
     </section>
-    <section id="contact"><div class="contact"><div><div class="kicker">Let's connect</div><h2>Have a project or opportunity in mind?</h2><p>I'm building my portfolio as I learn. You can explore my current project and follow my progress through GitHub.</p></div><a class="btn primary" href="https://github.com/bhoomisuthar4154-arch/Customer-Shopping-Behavior-Analysis" target="_blank" rel="noreferrer">Connect on GitHub ↗</a></div></section>
+    <section id="contact"><div class="contact"><div><div class="kicker">Let's connect</div><h2>Have a project or opportunity in mind?</h2><p>I'm building my portfolio as I learn. Explore my project or connect with me through the links below.</p><div class="actions"><a class="btn primary" href="https://wa.me/916376714154" target="_blank" rel="noreferrer">WhatsApp ↗</a><a class="btn secondary" href="https://www.linkedin.com/in/bhavana-ka-suthar-0a1bb0382?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn secondary" href="mailto:bhoomisuthar4154@gmail.com">Email me ↗</a><a class="btn secondary" href="https://github.com/bhoomisuthar4154-arch/Customer-Shopping-Behavior-Analysis" target="_blank" rel="noreferrer">GitHub project ↗</a></div></div></div></section>
   </main>
   <footer><span>© 2026 Bhavana K.A Suthar</span><span>Built with curiosity and a growing analytics toolkit.</span></footer>
 </div>
